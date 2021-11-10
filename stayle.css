@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(192, 253, 233);
+}
+
+/* Navbar */
+
+nav {
+    background-color: rgb(0, 202, 202);
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 202, 202));
+    scrollbar-shadow-color: #acacac;
+    height: 40px;
+    display: flex;
+    margin-top: -10px;
+    justify-content: space-between;
+    padding: 10px 0px;
+    z-index: 1;
+    position: relative;
+}
+
+.logo {
+    font-family: 'Dancing Script', cursive;
+    color: aliceblue;
+    margin: 10px 30px 10px ;
+    font-weight: bold;
+    font-size: 25px;
+    width: 500;
+    margin-top: 2px;
+    margin-left: 80px;
+    letter-spacing: 3px;
+    text-shadow: 3px 3px 3px  rgb(0, 0, 0, 0.7);
+
+}
+
+nav ul {
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    padding: 0px 10px 0px 10px;
+    margin-top: 15px;
+    margin-right: 50px;
+    padding: 0px 20px 0px 20px;
+    color: aliceblue;
+    list-style: none;
+    width: 15%;
+    justify-content: space-between;
+  
+}
+
+nav ul li a {
+    font-family: 'Signika Negative', sans-serif;
+    text-decoration: none;
+    color: aliceblue;
+    text-shadow: 2px 2px 2px  rgb(0, 0, 0, 0.7);
+
+}
+
+nav ul li a:hover {
+    color: aquamarine;
+    text-decoration: underline;
+    text-shadow: 5px 5px 5px  rgb(0, 0, 0, 0.7);
+}
+
+.garis {
+    background-color: rgb(1, 153, 153);
+    box-shadow: 8px 8px 8px rgb(88, 148, 128);
+    height:2px;
+}
+
+/* Profil */
+
+.profil {
+    background-image: url(https://wallpapercave.com/wp/wp6350571.jpg);
+    width: 1423px;
+    height: 700px;
+    position: relative;
+}
+
+.profil::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+    position: absolute;
+    margin-top: -220px;
+}
+
+.profil h1 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    font-size: 100px;
+    color: white;
+    text-shadow: 5px 5px 5px  rgb(0, 0, 0, 0.7);
+    font-style: italic;
+    position: relative;
+    z-index: 1;
+}
+
+.profil p {
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 100px;
+    font-size: 30px;
+    margin-top: 50px;
+    color: white;
+    text-shadow: 3px 3px 3px  rgb(0, 0, 0, 0.7);
+    font-style: italic;
+    position: relative;
+    z-index: 1;
+}
+
+.nim {
+    width: 180;
+    font-size: 25px;
+}
+
+.status {
+    color: #acacac;
+    font-family: Arial;
+}
+
+.profil-biodata {
+    background-image: linear-gradient(to top, rgb(76, 231, 179),rgb(192, 253, 233));
+    background-image: url(https://i1.wp.com/f1-styx.imgix.net/article/2018/12/06094103/shutterstock_502571587.jpg?resize=1000%2C667&ssl=1);
+}
+
+.profil-biodata::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0));
+    position: absolute;
+    margin-top: -635px;
+
+}
+
+.profil-biodata img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 10%;
+    height: 0%;
+    border-radius: 50%;
+    box-shadow: 8px 8px 8px rgb(61, 61, 61);
+    position: relative;
+    z-index: 1;
+}
+
+.profil-biodata h4 {
+    text-align: center;
+    font-family: 'Viga', sans-serif;
+    margin-top: 10px;
+    text-shadow: 5px 5px 5px rgb(61, 61, 61);
+    position: relative;
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    justify-content: space-between;
+}
+
+.profil-biodata h5 {
+    text-align: center;
+    margin-top: 10px;
+    color: #ffffff;
+    font-family: 'Viga', sans-serif;
+    font-style: italic;
+    text-shadow: 5px 5px 5px rgb(61, 61, 61);
+    font-weight: 50px;
+    letter-spacing: 3px;
+    font-size: 10px;
+    position: relative;
+    z-index: 1;
+    justify-content: space-around;
+}
+
+.profil-isi p {
+    text-align: center;
+    font-family: 'Viga', sans-serif;
+    margin-top: 30px;
+}
+
+.sosial {
+    display: flex;
+    display: flexbox;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+.sosial a img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40px;
+    height: 40px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.text h3 {
+    text-align: center;
+    font-family: 'Viga', sans-serif;
+    margin-top: 30px;
+}
